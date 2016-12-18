@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Authentification with Slim Framework 3</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="{{ base_url() }}/css/app.css">
+    </head>
+
+    <body>
+        {% include 'templates/partials/navigation.twig' %}
+
+        <div class="container">
+            {% include 'templates/partials/flash.twig' %}
+            {% block content %} {% endblock %}
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </body>
+</html>
