@@ -28,5 +28,8 @@ Pour cela, il suffit de :
     - Importer la BDD ```admin_slim.sql``` se trouvant dans le dossier courant
 
 ## Connexion
-Pour pouvoir se connecter, je vous conseille de créer un compte sur le projet.
-Vous pourrez ainsi l'utiliser à l'infini.
+Pour pouvoir se connecter, d'abord créer un compte sur le projet.
+
+## License
+Utilisation de la [Licence_MIT] (https://fr.wikipedia.org/wiki/Licence_MIT "link to Licence_MIT").
+La licence donne à toute personne recevant le logiciel le droit illimité de l'utiliser, le copier, le modifier, le fusionner, le publier, le distribuer, le vendre et de changer sa licence. La seule obligation est de mettre le nom des auteurs avec la notice de copyright.
